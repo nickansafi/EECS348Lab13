@@ -58,7 +58,7 @@ int main() {
     std::cout << "Actual output: " << fail_lecture(errorcase) << std::endl;
     std::cout << std::endl;
     vector<int> failurecase = {0, 1, 1, 1, 0, 1, 1, 1, 1, 0};
-    std::cout << "Test case for question 4: ";
+    std::cout << "Test case for question 5: ";
     output(failurecase);
     std::cout << std::endl << "Expected output: " << fixed_fail_lecture(failurecase) << std:: endl;
     std::cout << "Actual output: " << fail_lecture(failurecase) << std::endl;
